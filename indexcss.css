@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-body{
-    background-color: #efefef;
-}
+body{background-color: #efefef;}
 
 header{
     background-color: #795745;
@@ -15,16 +13,15 @@ header{
     z-index: 1;
 }
 
-h2,span{font-family: quicksand regular; color: #af1e59;}
+h2,span
+{font-family: quicksand regular; color: #af1e59;}
 
 p{
     font-family: karla;
     color: #5e4337;
 }
 
-header{
-    width: 100%;
-}
+header{width: 100%;}
 
 header > img{
     width: 250px;
@@ -32,9 +29,7 @@ header > img{
     display: flex;
 }
 
-.cabeca{
-    position: relative;
-}
+.cabeca{position: relative;}
 
 .titulo{
     position: absolute;
@@ -52,33 +47,36 @@ header > img{
     width: 300px;
 }
 
-.marca{
-    background-color: #d8d8d8;
+.marca, .marca2, .cores, .semCores, .dimensao{
+    background-color: white;
     width: 98%;
     height: 1050px;
     margin: auto;
     box-sizing: border-box;
+    
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
 }
 
-.marca h2, .cores h2, .semCores h2{
-    text-align: center;
-    font-size: 60px;
-    height: 75px;
-    color: #af1e59;
-}
+.marca .linha .linhaR, 
+.cores .linha .linhaM, 
+.semCores .linha .linhaA,
+.marca2 .linha .linhaM,
+.dimensao .linha. .linhaR
 
-.marca > .linhaM{
+{
     width: 100%;
 }
 
-.marca > p{
+.marca > p, .marca2 > p, .dimensao p{
     
     width: 80%;
 /*    height: 200px;*/
     text-align: justify;
-    font-size: 27px;
+    font-size: 28px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .imagens{
@@ -110,18 +108,16 @@ header > img{
     border-radius: 50%;
 }
 
-.cores, .semCores{
-    background-color: #efefef;
+.cores, .semCores, .dimensao{
     width: 98%;
-    height: 650px;
-    position: relative;
-    margin: auto;
-    box-sizing: border-box;
+    height: 670px;
 }
 
 .cores{color: #af1e59;}
 
 .cores .tocaquicores img{
+    display: flex;
+    margin: auto;
     margin-top: 100px;
     width: 800px;
 }
@@ -133,26 +129,39 @@ header > img{
     display: flex;
 }
 
-.cores p, .semCores p{
+.cores p, .semCores p, .dimensao p{
     width: 80%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal;
     margin: auto;
-    margin-top: 50px;
+    display: flex;
+    margin-top: 70px;
 }
 
 .semc{color: #e5971s;}
 
-.linhaR{
-    width: 100%;
+.imagens2{
+    margin: auto;    
 }
 
-.marca, .cores, .semCores{
-    margin-top: 30px;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+.imagens2 > img{
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    width: 680px;
 }
+
+.dimensao{
+    height: 770px;
+}
+
+.dimensao .dimens img{
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    width: 680px;
+}
+
 
 @keyframes rodar {
     to{transform: rotate(0deg);}
