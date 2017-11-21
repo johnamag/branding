@@ -10,8 +10,8 @@ body{
 header{
     background-color: #795745;
     width: 100%;
-    height: 60px;
-    position: absolute;
+    height: 160px;
+/*    position: absolute;*/
     z-index: 1;
 }
 
@@ -22,47 +22,47 @@ p{
     color: #5e4337;
 }
 
-header img{
-    width: 90px;
-    display: flex;
-    margin: auto;
-    transform: translateY(15%);
+header{
+    width: 100%;
 }
 
-.capa{
+header > img{
+    width: 250px;
+    margin: auto;
+    display: flex;
+}
+
+.cabeca{
     position: relative;
 }
 
 .titulo{
-    width: 200px;
+    position: absolute;
+    bottom:50px;
+    left: 30px;
 }
 
 .titulo span{
     font-size: 40px;
-    bottom: 110px;
-    position: absolute;
     left: 60px;
 }
 
 .titulo p{
-    position: absolute;
-    bottom: 100px;
-    width: 400px;
-    left: 63px;
-    bottom: 40px;
+    font-size: 20px;
+    width: 300px;
 }
 
 .marca{
     background-color: #d8d8d8;
-    width: 90%;
-    height: 650px;
+    width: 98%;
+    height: 1050px;
     margin: auto;
     box-sizing: border-box;
 }
 
 .marca h2, .cores h2, .semCores h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     height: 75px;
     color: #af1e59;
 }
@@ -72,28 +72,26 @@ header img{
 }
 
 .marca > p{
-    display: block;
-    transform:translate(30%,50%);
-    width: 400px;
-    height: 200px;
+    
+    width: 80%;
+/*    height: 200px;*/
     text-align: justify;
-    font-size: 17px;
+    font-size: 27px;
+    margin: auto;
+    margin-top: 80px;
 }
 
 .imagens{
-/*    float: right;*/
-    width: 400px;
-    height: 450px;
-    position: absolute;
-    bottom: 190px;
-    margin-left: 700px;
-    top: 920px;
+    position: relative;
+    width: 500px;
+    height: 550px;
     padding: 40px;
     box-sizing: border-box;
+    margin: auto;
 }
 
 .imagens .menor{
-    width: 290px;
+    width: 400px;
 }
 
 .imagens .menor, .maior{
@@ -114,10 +112,10 @@ header img{
 
 .cores, .semCores{
     background-color: #efefef;
-    width: 90%;
+    width: 98%;
     height: 650px;
-    margin: auto;
     position: relative;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -125,21 +123,22 @@ header img{
 
 .cores .tocaquicores img{
     margin-top: 100px;
-    width: 900px;
+    width: 800px;
 }
 
 .semCores .comc img{
-    width: 700px;
-    margin-top: 100px;
-    margin-left: 250px;
+    width: 600px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
 }
 
 .cores p, .semCores p{
     width: 80%;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: normal;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .semc{color: #e5971s;}
@@ -159,23 +158,4 @@ header img{
     to{transform: rotate(0deg);}
     
     from{transform: rotate(360deg);}
-}
-
-@media only screen and (max-width: 500px){
-    
-    .capa img{
-        width: 100%;
-        height: auto;
-    }
-    
-    .marca, .cores, .semCores{
-        width: 90%;
-    }
-    
-    .titulo span{
-        font-size: 190px;
-        bottom: 3px;
-    }
-    
-    .
 }
