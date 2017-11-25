@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#FF276C;}
+	.st0{fill:#FF276C;}
 </style>
-<g id="Camada_1">
+<g id="Camada_1_1_">
 	
-		<image style="overflow:visible;" width="2000" height="1125" xlink:href="data:image/jpeg;base64,/9j/4QlQaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIg
+		<image style="overflow:visible;enable-background:new    ;" width="2000" height="1125" xlink:href="data:image/jpeg;base64,/9j/4QlQaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIg
 aWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2Jl
 Om5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzEzOCA3OS4xNTk4MjQsIDIw
 MTYvMDkvMTQtMDE6MDk6MDEgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3
@@ -25053,14 +25052,15 @@ TTp5KpMFJWjJUSs7OQRw4T3mfGRsVFAXefTgr7YAxyx5unA2K//Z" transform="matrix(-0.6844 
 </g>
 <g id="slider">
 	<g>
-		<polygon class="st0" points="780.9,769.9 1.8,769.9 1.8,-0.4 192,208 472.9,442.7 641.1,597.7 695.5,658.2 		"/>
 		<g>
 			<g>
-				<path class="st1" d="M600.4,553.7c-49.2-47.5-112-103.4-191.3-166.7C107.2,145.9,8.3,0.8,7.4-0.6L1.8,1.6
-					c1,1.4,100.2,147.1,402.8,388.8c301.9,241.1,369.3,378,369.9,379.4l6.5-0.2c-0.2-0.3-17.5-36.5-71.5-100.5
-					C684.7,639.7,649.2,600.9,600.4,553.7z"/>
+				<path class="st0" d="M1020.2,550.4c-85.6-0.4-190.6,3.4-316.7,14.7c-480.3,43.2-699.4-2.5-701.4-3l0,6.8
+					c2.1,0.4,219,46.4,700.5,3.2c480.3-43.2,661.3,22.4,663.1,23.1l5.6-5.8c-0.4-0.1-47.8-17.9-152.3-29
+					C1170.9,555.2,1105.1,550.8,1020.2,550.4z"/>
 			</g>
 		</g>
 	</g>
 </g>
+<path class="st0" d="M2.1,568.9L1.6,769.2h1369.5l-0.4-179c-26.7-9.7-54.7-12.2-83.9-17.4c0,0-75.1-13.4-150.3-19.2
+	c-175-13.5-672.1,32-807.5,35c-77,1.7-148.5-3-148.5-3c-11.9-2.8-21.4-1.4-27-3"/>
 </svg>

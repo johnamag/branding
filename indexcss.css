@@ -14,7 +14,11 @@ header{
 }
 
 h2,span
-{font-family: quicksand regular; color: #795745;}
+{font-family: quicksand regular; color:#5e4337}
+
+span{
+    color: white;
+}
 
 p{
     font-family: karla;
@@ -31,10 +35,17 @@ header > img{
 
 .cabeca{position: relative;}
 
+.cabeca .capa img{
+    
+}
+
 .marca h2, 
 .cores h2, 
-.semCores, 
-.dimensao h2
+.semCores h2, 
+.dimensao h2,
+.marca2 h2,
+.naofazer h2,
+.tipografia h2
 {
     margin: auto;
     margin-top: 30px;
@@ -51,14 +62,29 @@ header > img{
 .titulo span{
     font-size: 47px;
     left: 60px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
 
 .titulo p{
     font-size: 20px;
     width: 300px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
 
-.marca, .marca2, .cores, .semCores, .dimensao{
+.marca, 
+.marca2, 
+.cores, 
+.semCores, 
+.dimensao, 
+.naofazer,
+.tipografia
+{
     position: relative;
     background-color: white;
     width: 98%;
@@ -70,31 +96,45 @@ header > img{
     border-radius: 8px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
 }
+.marca{
+    margin-top: 0px;
+}
 
 .cores{
     height: 1700px;
 }
 
 .marca2{
-    height: 1600px;
+    height: 1500px;
 }
   
 .dimensao{
     width: 98%;
-    height: 1470px;
+    height: 1370px;
 }
 
 .semCores{
     position: relative;
-    height: 1100px;
+    height: 1200px;
+}
+
+.naofazer{
+    position: relative;
+    height: 5500px;
+}
+
+.tipografia{
+    position: relative;
+    height: 1900px;
 }
 
 .marca .linha img, 
 .cores .linha img, 
 .semCores .linha img,
 .marca2 .linha img,
-.dimensao .linha img
-
+.dimensao .linha img,
+.naofazer .linha img,
+.tipografica .linha img,
 {
     width: 100%;
 }
@@ -103,21 +143,44 @@ header > img{
 .cores .linhaB img, 
 .semCores .linhaB img,
 .marca2 .linhaB img,
-.dimensao .linhaB img
-
+.dimensao .linhaB img,
+.naofazer .linhaB img,
+.tipografia .linhaB img
 {
     width: 100%;
     position: absolute;
     bottom: 0;
 }
 
-.marca > p, .marca2 > p, .dimensao p{
+.marca > p, 
+.marca2 > p, 
+.dimensao p, 
+.naofazer p,
+.tipografia p
+
+{
     
     width: 90%;
     text-align: justify;
     font-size: 40px;
     margin: auto;
     margin-top: 60px;
+}
+
+.cores p, 
+.semCores p, 
+.dimensao p
+{
+    width: 80%;
+    font-size: 40px;
+    font-weight: normal;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+}
+
+.semCores p{
+    margin-top: 150px;
 }
 
 .imagens{
@@ -159,17 +222,18 @@ header > img{
     display: flex;
 }
 
-.cores p, .semCores p, .dimensao p{
-    width: 80%;
-    font-size: 40px;
-    font-weight: normal;
+.naofazer .nao img{
+    width: 800px;
     margin: auto;
-    display: flex;
     margin-top: 150px;
+    display: flex;
 }
 
-.semCores p{
+.tipografia .tipo img{
+    width: 800px;
+    margin: auto;
     margin-top: 150px;
+    display: flex;
 }
 
 .semc{color: #e5971s;}
@@ -183,10 +247,6 @@ header > img{
     margin: auto;
     margin-top: 90px;
     width: 680px;
-}
-
-.dimensao{
-    height: 1170px;
 }
 
 .dimensao .dimens img{
