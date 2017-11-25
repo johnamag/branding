@@ -59,6 +59,7 @@ header > img{
 }
 
 .marca, .marca2, .cores, .semCores, .dimensao{
+    position: relative;
     background-color: white;
     width: 98%;
     height: 2420px;
@@ -68,6 +69,24 @@ header > img{
     margin-top: 30px;
     border-radius: 8px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+}
+
+.cores{
+    height: 1700px;
+}
+
+.marca2{
+    height: 1600px;
+}
+  
+.dimensao{
+    width: 98%;
+    height: 1470px;
+}
+
+.semCores{
+    position: relative;
+    height: 1100px;
 }
 
 .marca .linha img, 
@@ -88,7 +107,8 @@ header > img{
 
 {
     width: 100%;
-    margin-top: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .marca > p, .marca2 > p, .dimensao p{
@@ -123,24 +143,17 @@ header > img{
     display: flex;
 }
 
-.cores, 
-.semCores, 
-.dimensao{
-    width: 98%;
-    height: 1670px;
-}
-
 .cores{color: #af1e59;}
 
 .cores .tocaquicores img{
     display: flex;
     margin: auto;
-    margin-top: 100px;
-    width: 700px;
+    margin-top: 150px;
+    width: 600px;
 }
 
-.semCores .comc img{
-    width: 600px;
+.semCores .semc img{
+    width: 800px;
     margin: auto;
     margin-top: 150px;
     display: flex;
@@ -148,11 +161,15 @@ header > img{
 
 .cores p, .semCores p, .dimensao p{
     width: 80%;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: normal;
     margin: auto;
     display: flex;
-    margin-top: 70px;
+    margin-top: 150px;
+}
+
+.semCores p{
+    margin-top: 150px;
 }
 
 .semc{color: #e5971s;}
@@ -169,7 +186,7 @@ header > img{
 }
 
 .dimensao{
-    height: 770px;
+    height: 1170px;
 }
 
 .dimensao .dimens img{
