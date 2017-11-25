@@ -14,7 +14,7 @@ header{
 }
 
 h2,span
-{font-family: quicksand regular; color: #af1e59;}
+{font-family: quicksand regular; color: #ff276c;}
 
 p{
     font-family: karla;
@@ -30,6 +30,17 @@ header > img{
 }
 
 .cabeca{position: relative;}
+
+.marca h2, 
+.cores h2, 
+.semCores, 
+.dimensao h2
+{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 60px;
+}
 
 .titulo{
     position: absolute;
@@ -50,7 +61,7 @@ header > img{
 .marca, .marca2, .cores, .semCores, .dimensao{
     background-color: white;
     width: 98%;
-    height: 1550px;
+    height: 2420px;
     margin: auto;
     box-sizing: border-box;
     
@@ -59,42 +70,44 @@ header > img{
     box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
 }
 
-.marca .linha .linhaR, 
-.cores .linha .linhaM, 
-.semCores .linha .linhaA,
-.marca2 .linha .linhaM,
-.dimensao .linha. .linhaR
+.marca .linha img, 
+.cores .linha img, 
+.semCores .linha img,
+.marca2 .linha img,
+.dimensao .linha img
 
 {
     width: 100%;
 }
 
+.marca .linhaB img, 
+.cores .linhaB img, 
+.semCores .linhaB img,
+.marca2 .linhaB img,
+.dimensao .linhaB img
+
+{
+    width: 100%;
+    margin-top: 100%;
+}
+
 .marca > p, .marca2 > p, .dimensao p{
     
-    width: 80%;
-/*    height: 200px;*/
+    width: 90%;
     text-align: justify;
-    font-size: 30px;
+    font-size: 40px;
     margin: auto;
     margin-top: 60px;
 }
 
 .imagens{
     position: relative;
-    width: 500px;
-    height: 550px;
+    width: 800px;
+    height: 850px;
     padding: 40px;
     box-sizing: border-box;
+    
     margin: auto;
-}
-
-.imagens .menor{
-    width: 400px;
-}
-
-.imagens .menor, .maior{
-    margin: auto;
-    display: flex;
 }
 
 .imagens .maior{
@@ -103,14 +116,18 @@ header > img{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
-    width: 250px;
+    width: 450px;
     bottom: 10px;
     border-radius: 50%;
+    margin: auto;
+    display: flex;
 }
 
-.cores, .semCores, .dimensao{
+.cores, 
+.semCores, 
+.dimensao{
     width: 98%;
-    height: 670px;
+    height: 1670px;
 }
 
 .cores{color: #af1e59;}
@@ -118,8 +135,8 @@ header > img{
 .cores .tocaquicores img{
     display: flex;
     margin: auto;
-    margin-top: 150px;
-    width: 800px;
+    margin-top: 100px;
+    width: 700px;
 }
 
 .semCores .comc img{
