@@ -6,7 +6,7 @@
 body{background-color: #efefef;}
 
 header{
-    background-color: #795745;
+    background-color: #5e4337;
     width: 100%;
     height: 160px;
 /*    position: absolute;*/
@@ -14,7 +14,7 @@ header{
 }
 
 h2,span
-{font-family: quicksand regular; color: #ff276c;}
+{font-family: quicksand regular; color: #795745;}
 
 p{
     font-family: karla;
