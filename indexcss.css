@@ -16,10 +16,6 @@ header{
 h2,span
 {font-family: quicksand regular; color:#5e4337}
 
-span{
-    color: white;
-}
-
 p{
     font-family: karla;
     color: #5e4337;
@@ -36,7 +32,7 @@ header > img{
 .cabeca{position: relative;}
 
 .cabeca .capa img{
-    
+    width: 100%;
 }
 
 .marca h2, 
@@ -60,21 +56,21 @@ header > img{
 }
 
 .titulo span{
-    font-size: 47px;
-    left: 60px;
-    position: relative;
+    font-size: 70px;
     text-align: center;
     margin: auto;
+    margin-bottom: 80px;
+    margin-left: 40px;
     display: flex;
 }
 
 .titulo p{
-    font-size: 20px;
-    width: 300px;
-    position: relative;
-    text-align: center;
+    font-size: 40px;
+    width: 90%;
+    text-align: justify;
     margin: auto;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .marca, 
