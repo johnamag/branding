@@ -174,10 +174,6 @@ header > img{
     margin-top: 150px;
 }
 
-.semCores p{
-    margin-top: 150px;
-}
-
 .cores ul{
     display: flex;
     justify-content: center;
@@ -193,7 +189,7 @@ header > img{
 }
 
 .cores ul li:hover{
-    border-bottom: 1px solid #ffad1b; 
+    border-bottom: 2px solid #ffad1b; 
 }
 
 .imagens{
